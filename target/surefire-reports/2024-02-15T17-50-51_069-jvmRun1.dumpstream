@@ -1,0 +1,130 @@
+# Created at 2024-02-15T17:53:52.330
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+# Created at 2024-02-15T17:53:55.237
+Unexpected IOException with stream:   Given User is on Home Page                                                                   # org.stepDefinations.EntrataHomePageStepDef.user_is_on_home_page()
+
+
+# Created at 2024-02-15T17:53:55.246
+Unexpected IOException with stream:   When cookie-consent-form is displayed then user should accept that                           # org.stepDefinations.EconomicImpactOfEntrataStepDef.cookie_consent_form_is_displayed_then_user_should_accept_that()
+
+
+# Created at 2024-02-15T17:53:55.248
+Unexpected IOException with stream:       org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.161)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c756e942585304c6b4bd89a6f08f886c, findElement {using=css selector, value=#rcc-confirm-button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\91901\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61313}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61313/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c756e942585304c6b4bd89a6f08f886c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.isDisplayed(Unknown Source)
+	at org.pages.EconomicImpactOfEntrataPage.cookieAlertAccept(EconomicImpactOfEntrataPage.java:61)
+	at org.stepDefinations.EconomicImpactOfEntrataStepDef.cookie_consent_form_is_displayed_then_user_should_accept_that(EconomicImpactOfEntrataStepDef.java:14)
+	at âœ½.cookie-consent-form is displayed then user should accept that(file:///H:/Acceleration/Workspace/Entrata_SDET/./src/test/resource/features/EconomicImpactâ„¢ofEntrataModule.feature:5)
+
+
+
+# Created at 2024-02-15T17:53:55.250
+Unexpected IOException with stream:   When User can click on Learn More button                                                     # org.stepDefinations.EconomicImpactOfEntrataStepDef.user_can_click_on_learn_more_button()
+
+
+# Created at 2024-02-15T17:53:55.251
+Unexpected IOException with stream:   Then user enters "Sanket", "Jadhav", "Ersanket@gmail.com", "+91-103547890", "QA-2", "SDET-2" # org.stepDefinations.EconomicImpactOfEntrataStepDef.user_enters(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+
+
+# Created at 2024-02-15T17:53:55.252
+Unexpected IOException with stream:   And user select Unit Count                                                                   # org.stepDefinations.EconomicImpactOfEntrataStepDef.user_select_unit_count()
+
+
+# Created at 2024-02-15T17:53:55.253
+Unexpected IOException with stream:   And user click on Download button                                                            # org.stepDefinations.EconomicImpactOfEntrataStepDef.user_click_on_download_button()
+
+
+# Created at 2024-02-15T17:53:55.253
+Unexpected IOException with stream:   Then Thank you for downloading message should be reflected on page                           # org.stepDefinations.EconomicImpactOfEntrataStepDef.message_should_be_reflected_on_page()
+
+
+# Created at 2024-02-15T17:53:55.257
+Unexpected IOException with stream:       org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.161)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c756e942585304c6b4bd89a6f08f886c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.161, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\91901\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61313}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61313/devtoo..., se:cdpVersion: 121.0.6167.161, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c756e942585304c6b4bd89a6f08f886c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:316)
+	at org.applicationHooks.AppHooks.takesScreenshot(AppHooks.java:33)
+
+
+
+# Created at 2024-02-15T17:53:56.157
+Unexpected IOException with stream: 
+
+
+# Created at 2024-02-15T17:53:56.158
+Unexpected IOException with stream: Scenario: SignIn Page                                                # src/test/resource/features/EntrataSignInPage.feature:3
+
+
+# Created at 2024-02-15T17:53:56.166
+Unexpected IOException with stream: Feb 15, 2024 5:53:56 PM org.openqa.selenium.remote.service.DriverService$Builder getLogOutput
+INFO: Driver logs no longer sent to console by default; https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output
+
+
+# Created at 2024-02-15T17:53:57.643
+Unexpected IOException with stream: Feb 15, 2024 5:53:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 121
+
+
+# Created at 2024-02-15T17:53:57.643
+Unexpected IOException with stream: Feb 15, 2024 5:53:57 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.10.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+
+
+# Created at 2024-02-15T17:54:50.395
+Unexpected IOException with stream:   Given User is on Home Page                                         # org.stepDefinations.EntrataHomePageStepDef.user_is_on_home_page()
+
+
+# Created at 2024-02-15T17:54:50.520
+Unexpected IOException with stream:   When cookie-consent-form is displayed then user should accept that # org.stepDefinations.EconomicImpactOfEntrataStepDef.cookie_consent_form_is_displayed_then_user_should_accept_that()
+
+

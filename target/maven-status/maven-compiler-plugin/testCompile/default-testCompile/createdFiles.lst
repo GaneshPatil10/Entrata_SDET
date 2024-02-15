@@ -1,0 +1,5 @@
+org\applicationHooks\AppHooks.class
+org\stepDefinations\EconomicImpactOfEntrataStepDef.class
+org\stepDefinations\EntrataSignInStepDef.class
+org\stepDefinations\EntrataHomePageStepDef.class
+org\testRunner\TestRunnner.class

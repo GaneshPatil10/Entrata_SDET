@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="873.403">
+<testcase classname="Economic Impact™ of Entrata feature" name="Economic Impact™ of Entrata" time="152.068">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When cookie-consent-form is displayed then user should accept that..........passed
+When Learn More button should be displayed on Home page.....................passed
+And User can click on Learn More button.....................................passed
+Then User redirect to the page "The Total Economic Impact™ of Entrata"......passed
+]]></system-out>
+</testcase>
+<testcase classname="Economic Impact™ of Entrata feature" name="Economic Impact™ of Entrata Form Validation" time="154.359">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When cookie-consent-form is displayed then user should accept that..........passed
+When User can click on Learn More button....................................passed
+Then form with all field is displayed.......................................passed
+And First Name field should be displayed....................................passed
+And Last Name field should be displayed.....................................passed
+And Email field should be displayed.........................................passed
+And Phone Number filed should be displayed..................................passed
+And Company Name field should be displayed..................................passed
+And Job Title field should be displayed.....................................passed
+And Unit Count field should be displayed....................................passed
+And Download button should be displayed.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Economic Impact™ of Entrata feature" name="Economic Impact™ of Entrata Result successfully downloaded" time="127.618">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When cookie-consent-form is displayed then user should accept that..........passed
+When User can click on Learn More button....................................passed
+Then user enters "Ganesh", "Patil", "Erganesh@gmail.com", "+91-1234567890", "QA-1", "SDET-1".passed
+And user select Unit Count..................................................passed
+And user click on Download button...........................................passed
+Then Thank you for downloading message should be reflected on page..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Economic Impact™ of Entrata feature" name="Economic Impact™ of Entrata Result successfully downloaded 2" time="140.268">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When cookie-consent-form is displayed then user should accept that..........passed
+When User can click on Learn More button....................................passed
+Then user enters "Sanket", "Jadhav", "Ersanket@gmail.com", "+91-103547890", "QA-2", "SDET-2".passed
+And user select Unit Count..................................................passed
+And user click on Download button...........................................passed
+Then Thank you for downloading message should be reflected on page..........passed
+]]></system-out>
+</testcase>
+<testcase classname="Entrata SignIn feature" name="SignIn Page" time="92.222">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When cookie-consent-form is displayed then user should accept that..........passed
+Given User clicks on Sign In option.........................................passed
+Then user redirect to sign in page..........................................passed
+When User clicks on Property Manager Login button...........................passed
+Then user redirect to login page............................................passed
+When user enters userName...................................................passed
+And user enters password....................................................passed
+And user clicks on Sign In button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Entra Home Page" name="Entra Home Page URL &amp; Title Validation" time="130.889">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+Then Home page URL is displayed as "https://www.entrata.com/"...............passed
+Then Home page title is displayed as "Property Management Software | Entrata".passed
+]]></system-out>
+</testcase>
+<testcase classname="Entra Home Page" name="Home Page Tabs &amp; Options Validation" time="75.727">
+<failure message="expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[Given User is on Home Page..................................................passed
+Then Verify Tabs Products, Solutions, Resources are displayed on page.......passed
+Then Tabs count should be 3.................................................failed
+Then Verify Watch Demo buttons are displayed on home page...................skipped
+Then Verify Sign In button displayed on home page...........................skipped
+
+StackTrace:
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at org.stepDefinations.EntrataHomePageStepDef.tabs_count_should_be(EntrataHomePageStepDef.java:53)
+	at ✽.Tabs count should be 3(file:///H:/Acceleration/Workspace/Entrata_SDET/./src/test/resource/features/Entrata_HomePageValidation.feature:13)
+]]></failure>
+</testcase>
+</testsuite>

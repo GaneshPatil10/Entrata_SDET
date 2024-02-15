@@ -1,0 +1,24 @@
+I have created hybrid framework which is an combination of TestNG, Cucumber & JUnit.
+
+-Ways of framework execution:
+	1.Run as JUnit (Write click on TestRunner file- Run As- JUnit Test)
+	2.Run as Cucumber Feature (Write click on any feature file- Run As- Cucumber Feature)
+	3.Run as TestNG Test (First we need to modify test runner file as -
+	//To convert the framework into testNG then extend this abstract class and remove @RunWith annotation.
+	then write click on TestRunner file- Run As- TestNG Test)
+	4.Run as Maven Test (Write click on Project folder or POM.xml file- Run As- Maven Test)
+	5.Run via CMD Prompt (Open cmd from project location then enter cmd clear & cmd test/verify)
+	6.Run with Batch file (I have created batch file which has .bat extension just double click on it from project location
+	then it will execute the framework).
+	
+-Reports:
+I have created different types of reports like (html, json, junit, extended report with proper failed cases screenshot), check test runner file
+All those reports are automatically get saved at target folder and test-output folder.
+
+Note=
+- I have written test cases on 3 modules of the given build.
+- I have created Utility package and class to write generic methods like waits, javascript operations, browser opening code, etc)
+- I have created AppHooks for initializing data from feature file and for writing the screenshot code.
+- I have implemented Page Object Model
+
++IMP Note= Initial loading of URL is very slow so please wait until it finish loading and execute further steps from feature file.

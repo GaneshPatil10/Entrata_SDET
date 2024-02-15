@@ -1,0 +1,5 @@
+org\pages\EntrataSignInPage.class
+org\pages\EntrataHomePage.class
+org\utilities\ConfigReader.class
+org\utilities\BaseUtility.class
+org\pages\EconomicImpactOfEntrataPage.class
